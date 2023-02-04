@@ -13,7 +13,7 @@ const Sockpuppet = () => {
   const [imgLink,setImgLink]=useState('');
 
   const getsockpuppetdata = async () => {
-    const sockpuppet_data = await axios.get("http://localhost:3001/sockpuppet");
+    const sockpuppet_data = await axios.get("https://hacktu-node-api.onrender.com/sockpuppet");
     console.log(sockpuppet_data.data.data);
     setsockpuppetdata(sockpuppet_data.data.data);
     set_button_state(true);
