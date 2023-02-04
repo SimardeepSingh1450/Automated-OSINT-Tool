@@ -73,7 +73,7 @@ const Main = () => {
         </h1>
         <Maps />
       </section>
-      <section id="five" className="five">
+      {/* <section id="five" className="five">
         <h1
           style={{
             display: "flex",
@@ -85,8 +85,8 @@ const Main = () => {
           <BsTwitter style={{ marginLeft: "50px", fontSize: "6vw" }} />
         </h1>
         <Twitter_Account />
-      </section>
-      <section className="six">
+      </section> */}
+      {/* <section className="six">
         <h1
           style={{
             display: "flex",
@@ -98,7 +98,7 @@ const Main = () => {
           <BsTwitter style={{ marginLeft: "50px", fontSize: "6vw" }} />
         </h1>
         <Twitter_Tweets />
-      </section>
+      </section> */}
       <section className="seven">
         <h1
           style={{
