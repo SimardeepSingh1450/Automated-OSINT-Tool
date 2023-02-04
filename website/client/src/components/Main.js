@@ -32,7 +32,7 @@ const Main = () => {
           transition={{ duration: 5 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Eye Of Sauron
+          ALL IN ONE OSINT TOOL
         </motion.h1>
       </section>
       <section className="two">
@@ -43,7 +43,7 @@ const Main = () => {
             alignItems: "center",
           }}
         >
-          Powers of Eye Of Sauron{" "}
+          Powers of All In One OSINT Tool{" "}
           <GiBroadsword style={{ marginLeft: "50px" }} />
         </h1>
         {/* <h1>Powers of Eye Of Sauron</h1> */}
