@@ -16,7 +16,7 @@ const Twitter_Account = () => {
   const get_twitter_accounts_data = async (e) => {
     e.preventDefault();
     const arr_of_accounts_obj = await axios.post(
-      "https://hacktu-node-api.onrender.com/people",
+      "http://localhost:3001/people",
       searchparams
     );
     console.log(arr_of_accounts_obj.data.data);

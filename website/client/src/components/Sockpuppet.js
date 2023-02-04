@@ -13,9 +13,9 @@ const Sockpuppet = () => {
   const [imgLink,setImgLink]=useState('');
 
   const getsockpuppetdata = async () => {
-    const sockpuppet_data = await axios.get("https://hacktu-node-api.onrender.com/sockpuppet");
-    console.log(sockpuppet_data.data.data);
-    setsockpuppetdata(sockpuppet_data.data.data);
+const sockpuppet_data = await axios.get("https://selenium-sock-api.onrender.com/sockgenerator");
+    console.log(sockpuppet_data.data);
+    setsockpuppetdata(sockpuppet_data.data);
     set_button_state(true);
     //this persondoesnotexist image link
     setImgLink("https://thispersondoesnotexist.com/image");
@@ -40,11 +40,11 @@ const Sockpuppet = () => {
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Name :</h4>
-              <h4 className="socksecond">{sockpuppetdata.Name}</h4>
+              <h4 className="socksecond">{sockpuppetdata.name}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Address :</h4>
-              <h4 className="socksecond">{sockpuppetdata.Address}</h4>
+              <h4 className="socksecond">{sockpuppetdata.address}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Age :</h4>
@@ -56,7 +56,7 @@ const Sockpuppet = () => {
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Email :</h4>
-              <h4 className="socksecond">{sockpuppetdata.Email}</h4>
+              <h4 className="socksecond">{sockpuppetdata["Email Address"]}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Password :</h4>
@@ -64,7 +64,7 @@ const Sockpuppet = () => {
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Phone Number :</h4>
-              <h4 className="socksecond">{sockpuppetdata.PhoneNumber}</h4>
+              <h4 className="socksecond">{sockpuppetdata.Phone}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Birthday :</h4>
@@ -72,32 +72,32 @@ const Sockpuppet = () => {
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Blood Type :</h4>
-              <h4 className="socksecond">{sockpuppetdata.BloodType}</h4>
+              <h4 className="socksecond">{sockpuppetdata["Blood type"]}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Browser Agent :</h4>
-              <h4 className="socksecond">{sockpuppetdata.BrowserAgent}</h4>
+              <h4 className="socksecond">{sockpuppetdata["Browser user agent"]}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">DEBIT CARD :</h4>
-              <h4 className="socksecond">{sockpuppetdata.DEBITCARD}</h4>
+              <h4 className="socksecond">{sockpuppetdata.Visa}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">CVV Number :</h4>
-              <h4 className="socksecond">{sockpuppetdata.CVV}</h4>
+              <h4 className="socksecond">{sockpuppetdata.CVV2}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Card Expiry :</h4>
-              <h4 className="socksecond">{sockpuppetdata.cardExpiry}</h4>
+              <h4 className="socksecond">{sockpuppetdata.Expires}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">GUID :</h4>
               <h4 className="socksecond">{sockpuppetdata.GUID}</h4>
             </div>
-            <div className="sockpuppetcardDiv">
+            {/* <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">SNN :</h4>
               <h4 className="socksecond">{sockpuppetdata.SSN}</h4>
-            </div>
+            </div> */}
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Vehicle :</h4>
               <h4 className="socksecond">{sockpuppetdata.Vehicle}</h4>
@@ -112,15 +112,15 @@ const Sockpuppet = () => {
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Mother Maiden Name :</h4>
-              <h4 className="socksecond">{sockpuppetdata.MotherMaidenName}</h4>
+              <h4 className="socksecond">{sockpuppetdata["Mother's maiden name"]}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Zodiac Sign :</h4>
-              <h4 className="socksecond">{sockpuppetdata.Zodiac}</h4>
+              <h4 className="socksecond">{sockpuppetdata["Tropical zodiac"]}</h4>
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">Geo Points :</h4>
-              <h4 className="socksecond">{sockpuppetdata.geoPoints}</h4>
+              <h4 className="socksecond">{sockpuppetdata["Geo coordinates"]}</h4>
             </div>
            
           </div>

@@ -15,7 +15,7 @@ const Excellcreation = () => {
   const [data6, setData6] = useState([]);
   const createexcell = async () => {
     setvisible(true);
-    const data = await axios.get("https://hacktu-node-api.onrender.com/testing");
+    const data = await axios.get("http://localhost:3001/testing");
     console.log(data.data.duckdata);
     setData1(data.data.duckdata);
     setData2([data.data.fakeidentitydata]);
