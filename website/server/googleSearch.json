@@ -1,0 +1,58 @@
+[
+    {
+        "User Input": "\"obama\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
+        "Title": "Barack Obama - Wikipedia",
+        "Link": "https://en.wikipedia.org/wiki/Barack_Obama",
+        "Website": "en.wikipedia.org"
+    },
+    {
+        "User Input": "\"obama\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
+        "Title": "The Office of Barack and Michelle Obama",
+        "Link": "https://barackobama.com/",
+        "Website": "barackobama.com"
+    },
+    {
+        "User Input": "\"obama\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
+        "Title": "Barack Obama \u2713",
+        "Link": "https://www.whitehouse.gov/about-the-white-house/presidents/barack-obama/",
+        "Website": "www.whitehouse.gov"
+    },
+    {
+        "User Input": "\"obama\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
+        "Title": "Barack Obama | The White House",
+        "Link": "https://www.obama.org/",
+        "Website": "www.obama.org"
+    },
+    {
+        "User Input": "\"obama\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
+        "Title": "Welcome to the Obama Foundation",
+        "Link": "https://www.britannica.com/biography/Barack-Obama",
+        "Website": "www.britannica.com"
+    },
+    {
+        "User Input": "\"obama\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
+        "Title": "Barack Obama | Biography, Parents, Education, Presidency, Books ...",
+        "Link": "https://www.instagram.com/barackobama/",
+        "Website": "www.instagram.com"
+    },
+    {
+        "User Input": "\"obama\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
+        "Title": "Barack Obama (@barackobama) \u2022 Instagram photos and videos",
+        "Link": "https://obamawhitehouse.archives.gov/administration/president-obama",
+        "Website": "obamawhitehouse.archives.gov"
+    }
+]

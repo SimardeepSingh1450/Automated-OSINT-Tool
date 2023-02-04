@@ -1,0 +1,146 @@
+section{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    scroll-snap-align: start;
+    flex-direction: column;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y:scroll;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: lordofrings;
+    src: url('../fontfamily/RingbearerMedium-51mgZ.ttf');
+}
+
+.one{
+    font-size: 5vw;
+    background-image: url('../assets/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: lordofrings;
+    text-shadow: 3px 3px black;
+    color: white;
+}
+
+.two{
+    background-image: url('../assets//powers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: lordofrings;
+    font-size: 3vw;
+}
+
+.two h1{
+    text-shadow: 3px 3px black;
+}
+
+
+.third{
+    background-image: url('../assets/saurontower.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+
+}
+
+.four{
+    background-image: url('../assets/googlemap.jpg');
+}
+
+.four h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+}
+
+.five{
+    background-image: url('../assets/gatheraccount.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+}
+
+.six{
+    background-image: url('../assets/twitterback2.jpg');
+}
+
+.six h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+}
+
+.seven{
+    background-image: url('../assets/redditback.jpg');
+}
+
+.seven h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+}
+
+.eight{
+    background-image: url('../assets/discovering.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.eight h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+}
+.nine{
+    background-image: url('../assets/search.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nine h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+}
+
+.ten{
+    background-image: url('../assets/search2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ten h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+}
+
+.eleven{
+    background-image: url('../assets/backgroundfront.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.eleven h1{
+    font-family: lordofrings;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+}
