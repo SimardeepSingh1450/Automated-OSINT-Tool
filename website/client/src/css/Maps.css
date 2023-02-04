@@ -1,0 +1,35 @@
+.latlongDisplay{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.latitudeDisplay{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    backdrop-filter: blur(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+.latitudeDisplay:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.longitudeDisplay:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.longitudeDisplay{
+    margin-left: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    transition: all 0.5s ease-in-out;
+
+}

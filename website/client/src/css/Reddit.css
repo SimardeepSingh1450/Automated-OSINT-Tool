@@ -3,11 +3,17 @@
     width:300px;
 }
 
+.redditParent{
+    overflow: hidden;
+}
+
 .mainredditCardDiv{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    overflow-y: scroll;
+    height: 280px;
+    margin-top: 20px;
 }
 
 .redditDataCard{
@@ -24,6 +30,25 @@ width: 30vw;
 color: white;
 text-shadow: 1px 1px black;
 margin: 10px;
+}
+
+.redditLinkButton{
+    border-style: solid;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.redditLinkButton:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+.span-reddit-button{
+    color:white;
 }
 
 .span-reddit{

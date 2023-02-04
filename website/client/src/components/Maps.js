@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
+import '../css/Maps.css'
 
 const Maps = () => {
 const [inputLocation,setInputLocation]=useState('Punjab')
@@ -10,9 +11,11 @@ const [emptyMapMsg,setEmptyMapMsg]=useState('Enter a Valid Location Please')
 const attainLatLong=async()=>{
   const response = await fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${inputLocation}.json?access_token=sk.eyJ1Ijoic2ltYXJkZWVwMTQ1MCIsImEiOiJjbGM5NXg4eGMweXduM3BwMmtjZ3ZoN2I5In0.JQ6pwdvsjjV2n1MAd6RNMQ`);
   const data=await response.json();
-  // console.log(data.features[0].center);
-  setCurrentLatitude(data.features[0].center[0]);
+  console.log(data.features[0].center);
+  setCurrentLatitude(data.features[0].center[1]);
   setCurrentLongitude(data.features[0].center[0]);
+  console.log('Latitude :',currentLatitude);
+  console.log('Longitude :',currentLongitude);
 }
 
 useEffect(()=>{
@@ -32,6 +35,11 @@ useEffect(()=>{
   allowfullscreen>
 </iframe> : <h2>{emptyMapMsg}</h2>
 }
+
+{inputLocation?<div className='latlongDisplay'>
+<h4 className='latitudeDisplay'>Latitude : {currentLatitude}</h4>
+<h4 className='longitudeDisplay'>Longitude : {currentLongitude}</h4>
+</div>:<></>}
 
     </div>
 

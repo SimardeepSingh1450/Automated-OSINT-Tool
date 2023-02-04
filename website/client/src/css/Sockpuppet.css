@@ -9,7 +9,10 @@
     font-size: 0.7vw;
     border-radius: 10px;
     margin: 5px;
+    backdrop-filter: blur(10px);
 }
+
+
 
 .socksecond{
     margin-left: 10px;

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import axios from 'axios';
+import '../css/Duck.css'
 //Material UI Buttton
 import Button from '@mui/material/Button';
 
@@ -10,21 +11,11 @@ const DuckSearchFeed = () => {
   const [userInput,setUserInput]=useState('');
   const [duckArray,setDuckArray]=useState([]);
 
-    //delay function
-  const delay = ms => new Promise(
-    resolve => setTimeout(resolve, ms)
-  );
-
     const getDuckData=async()=>{
-    const duckduckGo=await axios.get(`http://localhost:3001/run-duck-python-scrape/${userInput}`)
+    const duckduckGo=await axios.get(`https://asgardian.pythonanywhere.com/runDuckPython/${userInput}`)
     console.log(duckduckGo);
-    //delay
-    await delay(20000);
-    const duckduckGoJson=await axios.get('http://localhost:3001/get-duck-data')
-    console.log('DUCK DUCK DATA :',duckduckGoJson);
-    const duckArray=duckduckGoJson.data;
-    const slicedDuck=duckArray.slice(-6);
-    setDuckArray(slicedDuck);
+      
+    setDuckArray(duckduckGo.data);
      set_button_state(true);
 
     }

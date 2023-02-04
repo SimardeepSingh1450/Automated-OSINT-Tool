@@ -11,21 +11,10 @@ const SearchFeed = () => {
   const [userInput,setUserInput]=useState('');
   const [googleArray,setGoogleArray]=useState([]);
 
-  //delay function
-  const delay = ms => new Promise(
-    resolve => setTimeout(resolve, ms)
-  );
-
   const getsearchData=async()=>{
-    const googleSearch=axios.get(`http://localhost:3001/run-python-googleSearch/${userInput}`)
+    const googleSearch=await axios.get(`https://asgardian.pythonanywhere.com/googlesearch/${userInput}`)
     console.log(googleSearch);
-     //delay
-     await delay(10000);
-     const googleJson=await axios.get('http://localhost:3001/fetch-googleScrape');
-     console.log('GOOGLE DATA :',googleJson);
-     const slicedGoogleArray=googleJson.data.slice(0,6);
-     setGoogleArray(slicedGoogleArray);
-
+     setGoogleArray(googleSearch.data);
      set_button_state(true);
   }
 
@@ -50,7 +39,7 @@ const SearchFeed = () => {
           {googleArray?googleArray.map((item)=>{
               return(
                 <div className='googleCardDiv'>
-                  <h3><span className='spanGoogle'>User Input :</span>{item["User Input"]}</h3>
+                  {/* <h3><span className='spanGoogle'>User Input :</span>{item["User Input"]}</h3> */}
                   <h3><span className='spanGoogle'>Source Website :</span>{item.Website}</h3>
                   <h3><span className='spanGoogle'>Source Link :</span>{item.Link}</h3>
                   <h3><span className='spanGoogle'>Source Title :</span>{item.Title}</h3>

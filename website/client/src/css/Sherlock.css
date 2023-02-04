@@ -6,7 +6,18 @@
 .sherlockMainDiv{
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-y: scroll;
+    margin-top: 20px;
+    height: 200px;
+    /* border-style: solid; */
+    overflow-y: scroll;
+}
+
+.sherlockParent{
+    overflow: hidden;
 }
 
 .sherlockMainDiv h3{
