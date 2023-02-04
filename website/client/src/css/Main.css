@@ -21,13 +21,14 @@ section{
 }
 
 .one{
-    font-size: 5vw;
+    font-size: 3vw;
     background-image: url('../assets/background2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: lordofrings;
     text-shadow: 3px 3px black;
     color: white;
+    word-spacing: 1em;
 }
 
 .two{
