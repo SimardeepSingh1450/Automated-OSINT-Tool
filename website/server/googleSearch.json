@@ -1,58 +1,66 @@
 [
     {
-        "User Input": "\"obama\"",
-        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
-        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
-        "Title": "Barack Obama - Wikipedia",
-        "Link": "https://en.wikipedia.org/wiki/Barack_Obama",
+        "User Input": "\"modi\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"modi\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"modi\"",
+        "Title": "Narendra Modi | NarendraModi.in Official Website of Prime Minister ...",
+        "Link": "https://www.narendramodi.in/",
+        "Website": "www.narendramodi.in"
+    },
+    {
+        "User Input": "\"modi\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"modi\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"modi\"",
+        "Title": "Narendra Modi - Wikipedia",
+        "Link": "https://en.wikipedia.org/wiki/Narendra_Modi",
         "Website": "en.wikipedia.org"
     },
     {
-        "User Input": "\"obama\"",
-        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
-        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
-        "Title": "The Office of Barack and Michelle Obama",
-        "Link": "https://barackobama.com/",
-        "Website": "barackobama.com"
+        "User Input": "\"modi\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"modi\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"modi\"",
+        "Title": "Narendra Modi \u2713",
+        "Link": "http://www.pmindia.gov.in/en/",
+        "Website": "www.pmindia.gov.in"
     },
     {
-        "User Input": "\"obama\"",
-        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
-        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
-        "Title": "Barack Obama \u2713",
-        "Link": "https://www.whitehouse.gov/about-the-white-house/presidents/barack-obama/",
-        "Website": "www.whitehouse.gov"
+        "User Input": "\"modi\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"modi\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"modi\"",
+        "Title": "Prime Minister of India",
+        "Link": "https://timesofindia.indiatimes.com/topic/Narendra-Modi",
+        "Website": "timesofindia.indiatimes.com"
     },
     {
-        "User Input": "\"obama\"",
-        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
-        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
-        "Title": "Barack Obama | The White House",
-        "Link": "https://www.obama.org/",
-        "Website": "www.obama.org"
-    },
-    {
-        "User Input": "\"obama\"",
-        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
-        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
-        "Title": "Welcome to the Obama Foundation",
-        "Link": "https://www.britannica.com/biography/Barack-Obama",
-        "Website": "www.britannica.com"
-    },
-    {
-        "User Input": "\"obama\"",
-        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
-        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
-        "Title": "Barack Obama | Biography, Parents, Education, Presidency, Books ...",
-        "Link": "https://www.instagram.com/barackobama/",
+        "User Input": "\"modi\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"modi\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"modi\"",
+        "Title": "Latest News of PM Modi | Top Stories , Photos & Videos",
+        "Link": "https://www.instagram.com/narendramodi/%3Fhl%3Den",
         "Website": "www.instagram.com"
     },
     {
-        "User Input": "\"obama\"",
-        "Google Images": "https://www.google.com/search?tbm=isch&q=\"obama\"",
-        "Videos": "https://www.google.com/search?tbm=vid&q=\"obama\"",
-        "Title": "Barack Obama (@barackobama) \u2022 Instagram photos and videos",
-        "Link": "https://obamawhitehouse.archives.gov/administration/president-obama",
-        "Website": "obamawhitehouse.archives.gov"
+        "User Input": "\"modi\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"modi\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"modi\"",
+        "Title": "Narendra Modi (@narendramodi) \u2022 Instagram photos and videos",
+        "Link": "https://www.facebook.com/narendramodi/",
+        "Website": "www.facebook.com"
+    },
+    {
+        "User Input": "\"modi\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"modi\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"modi\"",
+        "Title": "Narendra Modi - Facebook",
+        "Link": "https://www.youtube.com/user/narendramodi",
+        "Website": "www.youtube.com"
+    },
+    {
+        "User Input": "\"modi\"",
+        "Google Images": "https://www.google.com/search?tbm=isch&q=\"modi\"",
+        "Videos": "https://www.google.com/search?tbm=vid&q=\"modi\"",
+        "Title": "Narendra Modi - YouTube",
+        "Link": "https://indianexpress.com/about/narendra-modi/",
+        "Website": "indianexpress.com"
     }
 ]
