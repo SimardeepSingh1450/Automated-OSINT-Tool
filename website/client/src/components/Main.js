@@ -49,8 +49,8 @@ const Main = () => {
             alignItems: "center",
           }}
         >
-          Powers of All In One OSINT Tool{" "}
-          <GiBroadsword style={{ marginLeft: "50px" }} />
+          Features of All In One OSINT Tool{" "}
+          {/* <GiBroadsword style={{ marginLeft: "50px" }} /> */}
         </h1>
         {/* <h1>Powers of Eye Of Sauron</h1> */}
         <Features />

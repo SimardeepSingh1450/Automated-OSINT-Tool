@@ -16,26 +16,26 @@ section{
 }
 
 @font-face {
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     src: url('../fontfamily/RingbearerMedium-51mgZ.ttf');
 }
 
 .one{
     font-size: 3vw;
-    background-image: url('../assets/background2.jpg');
+    background-image: url('../assets/back1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     text-shadow: 3px 3px black;
     color: white;
     word-spacing: 1em;
 }
 
 .two{
-    background-image: url('../assets//powers.jpg');
+    background-image: url('../assets/back2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 3vw;
 }
 
@@ -45,103 +45,109 @@ section{
 
 
 .third{
-    background-image: url('../assets/saurontower.jpg');
+    background-image: url('../assets/back3.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .third h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 
 }
 
 .four{
-    background-image: url('../assets/googlemap.jpg');
+    background-image: url('../assets/back4.jpg');
+    background-size: cover;
 }
 
 .four h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 }
 
 .five{
-    background-image: url('../assets/gatheraccount.jpg');
+    background-image: url('../assets/back5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .five h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 }
 
 .six{
-    background-image: url('../assets/twitterback2.jpg');
+    background-image: url('../assets/back6.jpg');
 }
 
 .six h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 }
 
 .seven{
-    background-image: url('../assets/redditback.jpg');
+    background-image: url('../assets/back7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .seven h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 }
 
 .eight{
-    background-image: url('../assets/discovering.jpg');
+    background-image: url('../assets/back8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .eight h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 }
 .nine{
-    background-image: url('../assets/search.jpg');
+    background-image: url('../assets/back9.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .nine h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 }
 
 .ten{
-    background-image: url('../assets/search2.jpg');
+    background-image: url('../assets/back10.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .ten h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 }
 
 .eleven{
-    background-image: url('../assets/backgroundfront.jpg');
+    background-image: url('../assets/back11.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .eleven h1{
-    font-family: lordofrings;
+    font-family: 'Oswald', sans-serif;;
     font-size: 5vw;
     text-shadow: 3px 3px black;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
