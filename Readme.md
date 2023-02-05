@@ -3,6 +3,8 @@
 
 <img src="https://i.gifer.com/origin/e9/e9cd81c935d85d2b984b3cd3cae1a5c8.gif" style="height: 20vw"/>
 
+####  https://osint-tool-1450.netlify.app/ 
+
 # Obtaining Data with OSNIT Practices
 
 ## OSINT (Sock Puppet)
@@ -32,6 +34,7 @@
 
 #### 1. Beautiful Soup
 #### 2. Selenium
+#### 3. Flask
 
 
 # Javascript Packages and API's majorly Used
@@ -71,5 +74,5 @@ node index.js
 ```
 ## Tech Stack Used :
 
-#### React , Node ,Express , MongoDB , Python and various npm packages and libraries .
+#### React, Node, Express, Python, Flask, Selenium, Beautiful Soup 4 and various npm packages and libraries .
 
