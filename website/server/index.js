@@ -14,39 +14,32 @@ app.use(express.json());
 //Connection to DB :
 require("./config/connection");
 
-//Importing Controller Functions :
-const getFn = require("./controllers/GET");
-const postFn = require("./controllers/POST");
-const putFn = require("./controllers/PUT");
-const deleteFn = require("./controllers/DELETE");
+// //Importing Controller Functions :
+// const getFn = require("./controllers/GET");
+// const postFn = require("./controllers/POST");
+// const putFn = require("./controllers/PUT");
+// const deleteFn = require("./controllers/DELETE");
 
 //Making Options for CRUD :
 //Read Operation :
 
-app.get("/get", getFn);
+// app.get("/get", getFn);
 
-//Post Operation :
-app.post("/post/:datafromparams", postFn);
+// //Post Operation :
+// app.post("/post/:datafromparams", postFn);
 
-//PUT Operation :
-app.put("/update/:id", putFn);
+// //PUT Operation :
+// app.put("/update/:id", putFn);
 
-//DELETE Operation :
-app.delete("/delete/:id", deleteFn);
+// //DELETE Operation :
+// app.delete("/delete/:id", deleteFn);
 
-//sockpuppet scrapping operation
-app.use("/sockpuppet", require("./routes/sockpuppet_generator"));
-
-//twitter scrapping operations
-app.use("/tweets", require("./routes/top_tweet_scrap_route"));
-app.use("/people", require("./routes/top_people_scrap_route"));
-
-//DB data insertion operations
-app.get(
-  "/save_twitter_accounts",
-  require("./controllers/twitter_accounts_to_DB")
-);
-app.get("/save_twitter_tweets", require("./controllers/twitter_tweets_to_DB"));
+// //DB data insertion operations
+// app.get(
+//   "/save_twitter_accounts",
+//   require("./controllers/twitter_accounts_to_DB")
+// );
+// app.get("/save_twitter_tweets", require("./controllers/twitter_tweets_to_DB"));
 
 //DB data fetching operations
 app.get(
@@ -63,9 +56,8 @@ app.get(
   require("./controllers/DB data fetching/twitter_tweets_DB")
 );
 
-//testing repote generation
-app.get("/testing", require("./testing/repote"));
-
+// //testing repote generation
+// app.get("/testing", require("./testing/repote"));
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => {

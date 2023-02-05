@@ -9,9 +9,9 @@ import Features from "./Features";
 import Reddit from "./Reddit";
 import Sherlock from "./Sherlock";
 import Excellcreation from "./Excellcreation";
-import SearchFeed from './GoogleSearchFeed'
-import DuckSearchFeed from './DuckSearchFeed'
-
+import SearchFeed from "./GoogleSearchFeed";
+import DuckSearchFeed from "./DuckSearchFeed";
+import { useState } from "react";
 // import {Link} from 'react-router-hash-link'
 //react-icons
 import { TbSock } from "react-icons/tb";
@@ -21,9 +21,15 @@ import { BsReddit } from "react-icons/bs";
 import { GiBroadsword } from "react-icons/gi";
 import { GiSherlockHolmes } from "react-icons/gi";
 import { BsGoogle } from "react-icons/bs";
-import {SiDuckduckgo} from 'react-icons/si'
+import { SiDuckduckgo } from "react-icons/si";
 
 const Main = () => {
+  const [data1, setData1] = useState([]);
+  const [data2, setData2] = useState([]);
+  const [data3, setData3] = useState([]);
+  const [data4, setData4] = useState([]);
+  const [data5, setData5] = useState([]);
+  const [data6, setData6] = useState([]);
   return (
     <div className="container">
       <section className="one">
@@ -59,7 +65,7 @@ const Main = () => {
         >
           Sock Puppet OSINT <TbSock style={{ marginLeft: "50px" }} />
         </h1>
-        <Sockpuppet />
+        <Sockpuppet sockdata={setData2} />
       </section>
       <section id="four" className="four">
         <h1
@@ -110,7 +116,7 @@ const Main = () => {
           Gathering Reddit Info{" "}
           <BsReddit style={{ marginLeft: "50px", fontSize: "6vw" }} />
         </h1>
-        <Reddit />
+        <Reddit redditdata={setData4} />
       </section>
       <section id="eight" className="eight">
         <h1
@@ -131,26 +137,63 @@ const Main = () => {
         </h1>
         <Sherlock />
       </section>
-      
+
       <section id="nine" className="nine">
-      <h1 style={{display:'flex',justifyContent:'center',alignItems:'center'}}>Google Search Feed <BsGoogle style={{borderRadius:'100px',marginLeft:'50px',fontSize:'6vw'}}/></h1>
-      <SearchFeed/>
+        <h1
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          Google Search Feed{" "}
+          <BsGoogle
+            style={{
+              borderRadius: "100px",
+              marginLeft: "50px",
+              fontSize: "6vw",
+            }}
+            googlesearch={data3}
+          />
+        </h1>
+        <SearchFeed googlesearch={setData3} />
       </section>
       <section className="ten">
-      <h1 style={{display:'flex',justifyContent:'center',alignItems:'center'}}>DuckDuckGo Search Feed <SiDuckduckgo style={{borderRadius:'100px',marginLeft:'50px',fontSize:'6vw'}}/></h1>
-      <DuckSearchFeed/>
+        <h1
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          DuckDuckGo Search Feed{" "}
+          <SiDuckduckgo
+            style={{
+              borderRadius: "100px",
+              marginLeft: "50px",
+              fontSize: "6vw",
+            }}
+          />
+        </h1>
+        <DuckSearchFeed setduckdata={setData1} />
       </section>
       <section className="eleven">
         <h1
           style={{
             display: "flex",
             justifyContent: "center",
-            flexDirection:'column',
+            flexDirection: "column",
             alignItems: "center",
           }}
         >
           Report
-          <Excellcreation  style={{ marginLeft: "50px" }} />
+          <Excellcreation
+            style={{ marginLeft: "50px" }}
+            duckdata={data1}
+            redditdata={data4}
+            googlesearchdata={data3}
+            sockdata={data2}
+          />
         </h1>
       </section>
     </div>

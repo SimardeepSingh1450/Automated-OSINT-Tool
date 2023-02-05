@@ -3,9 +3,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { CSVLink } from "react-csv";
 
-import '../css/Excel.css'
+import "../css/Excel.css";
 
-const Excellcreation = () => {
+const Excellcreation = (props) => {
   const [visible, setvisible] = useState(false);
   const [data1, setData1] = useState([]);
   const [data2, setData2] = useState([]);
@@ -15,14 +15,17 @@ const Excellcreation = () => {
   const [data6, setData6] = useState([]);
   const createexcell = async () => {
     setvisible(true);
-    const data = await axios.get("http://localhost:3001/testing");
-    console.log(data.data.duckdata);
-    setData1(data.data.duckdata);
-    setData2([data.data.fakeidentitydata]);
-    setData3(data.data.googlesearchdata);
-    setData4(data.data.reditdata);
-    setData5(data.data.twitter_Accounts_data);
-    setData6(data.data.twitter_tweets_data);
+    // const data = await axios.get("http://localhost:3001/testing");
+    // console.log(data.data.duckdata);
+    // setData1(props.duckdata);
+    // setData2(props.sockdata);
+    // setData3(props.googlesearchdata);
+    // setData4(props.redditdata);
+    // setData2([data.data.fakeidentitydata]);
+    // setData3(data.data.googlesearchdata);
+    // setData4(data.data.reditdata);
+    // setData5(data.data.twitter_Accounts_data);
+    // setData6(data.data.twitter_tweets_data);
   };
 
   return (
@@ -38,24 +41,40 @@ const Excellcreation = () => {
       </button>
       {visible && (
         <div className="reportCardCSV">
-          <CSVLink className="linksexcel" data={data1} onClick={() => {}}>
+          <CSVLink
+            className="linksexcel"
+            data={props.duckdata}
+            onClick={() => {}}
+          >
             DuckDuckGo Data
           </CSVLink>
-          <CSVLink className="linksexcel" data={data2} onClick={() => {}}>
+          <CSVLink
+            className="linksexcel"
+            data={props.sockdata}
+            onClick={() => {}}
+          >
             Sock Puppet
           </CSVLink>
-          <CSVLink className="linksexcel" data={data3} onClick={() => {}}>
+          <CSVLink
+            className="linksexcel"
+            data={props.googlesearchdata}
+            onClick={() => {}}
+          >
             Google Search
           </CSVLink>
-          <CSVLink className="linksexcel" data={data4} onClick={() => {}}>
+          <CSVLink
+            className="linksexcel"
+            data={props.redditdata}
+            onClick={() => {}}
+          >
             Reddit
           </CSVLink>
-          <CSVLink className="linksexcel" data={data5} onClick={() => {}}>
+          {/* <CSVLink className="linksexcel" data={data5} onClick={() => {}}>
             Twitter Accounts
           </CSVLink>
           <CSVLink className="linksexcel" data={data6} onClick={() => {}}>
             Twiiter Tweets
-          </CSVLink>
+          </CSVLink> */}
         </div>
       )}
     </div>
