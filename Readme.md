@@ -46,6 +46,20 @@
 #### 5. Mapbox GeoCoding API
 
 
+## Project Images Preview
+
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580835/hacktu4.0/pic1_biicgn.png" style="height: 20vw"/>
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580829/hacktu4.0/pic2_v9qpzn.png" style="height: 20vw"/>
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580831/hacktu4.0/pic3_vtbmlk.png" style="height: 20vw"/>
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580830/hacktu4.0/pic4_bt25s0.png" style="height: 20vw"/>
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580828/hacktu4.0/pic5_kohevo.png" style="height: 20vw"/>
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580828/hacktu4.0/pic6_dgt6pi.png" style="height: 20vw"/>
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580826/hacktu4.0/pic7_utq515.png" style="height: 20vw"/>
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580828/hacktu4.0/pic8_zx2vbw.png" style="height: 20vw"/>
+<img src="https://res.cloudinary.com/dv7jje0bw/image/upload/v1675580826/hacktu4.0/pic9_ddhnld.png" style="height: 20vw"/>
+
+
+
 
 ### How to run this in your local Environment :
 
@@ -74,5 +88,7 @@ node index.js
 ```
 ## Tech Stack Used :
 
-#### React, Node, Express, Python, Flask, Selenium, Beautiful Soup 4 and various npm packages and libraries .
+#### React, Node, Express, Python, Flask, Selenium, Beautiful Soup 4 and various npm packages and libraries 
+
+
 
