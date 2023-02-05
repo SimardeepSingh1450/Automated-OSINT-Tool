@@ -87,7 +87,12 @@ const Sockpuppet = (props) => {
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">DEBIT CARD :</h4>
-              <h4 className="socksecond">{sockpuppetdata.Visa}</h4>
+              {sockpuppetdata.Visa?<>
+                <h4 className="socksecond">{sockpuppetdata.Visa}</h4>
+              </>:<></>}
+              {sockpuppetdata.MasterCard?<>
+                <h4 className="socksecond">{sockpuppetdata.MasterCard}</h4>
+              </>:<></>}
             </div>
             <div className="sockpuppetcardDiv">
               <h4 className="sockfirst">CVV Number :</h4>
