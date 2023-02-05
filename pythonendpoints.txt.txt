@@ -1,26 +1,6 @@
-Hello friends chai peelo
-                       .
-                        `:.
-                          `:.
-                  .:'     ,::
-                 .:'      ;:'
-                 ::      ;:'
-                  :    .:'
-                   `.  :.
-          _________________________
-         : _ _ _ _ _ _ _ _ _ _ _ _ :
-     ,---:".".".".".".".".".".".".":
-    : ,'"`::.:.:.:.:.:.:.:.:.:.:.::'
-    `.`.  `:-===-===-===-===-===-:'
-      `.`-._:                   :
-        `-.__`.               ,' 
-    ,--------`"`-------------'--------.
-     `"--.__                   __.--"'
-            `""-------------""'
-            
-            
 https://asgardian.pythonanywhere.com/runredditPython/searchQuery
 https://asgardian.pythonanywhere.com/googlesearch/searchQuery
 https://asgardian.pythonanywhere.com/runDuckPython/searchQuery
 https://api-hacktu.onrender.com/sherlock/searchQuery
+https://selenium-sock-api.onrender.com/sockgenerator
 https://selenium-sock-api.onrender.com/sockgenerator
