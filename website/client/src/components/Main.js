@@ -105,7 +105,7 @@ const Main = () => {
         </h1>
         <Twitter_Tweets />
       </section> */}
-      <section className="seven">
+      <section id="seven" className="seven">
         <h1
           style={{
             display: "flex",

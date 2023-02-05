@@ -13,6 +13,7 @@ import MapsImage from '../assets/maps.png'
 import UserIdImage from '../assets/userid.png'
 import SearchImage from '../assets/searchfeed.jpg'
 import TwitterImage from '../assets/twitter.png'
+import RedditImage from '../assets/reddit-logo.png'
 //Css
 import '../css/cardsMain.css'
 
@@ -100,7 +101,7 @@ export default function MediaCard() {
 <Card sx={{ maxWidth: 340 }} style={{margin:'15px',width:200,backgroundColor:'white',borderRadius:'20px'}}>
 <CardMedia
   sx={{ height: 110,backgroundSize:'80px'}}
-  image={TwitterImage}
+  image={RedditImage}
   title="SearchFeed"
 />
 <CardContent>
@@ -112,7 +113,7 @@ export default function MediaCard() {
   </Typography>
 </CardContent>
 <CardActions>
-<Link smooth to="#five"><Button size="small">Go to Social Media Fetching</Button></Link>
+<Link smooth to="#seven"><Button size="small">Go to Social Media Fetching</Button></Link>
 </CardActions>
 </Card>
 
